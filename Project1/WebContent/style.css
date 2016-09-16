@@ -1,0 +1,62 @@
+/*Toan Chu 
+Project1 - CSC337
+08/31/2016*/
+@CHARSET "ISO-8859-1";
+body{
+	background-color: grey;
+}
+h3{
+	color:blue;
+	background-color: yellow;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+h2{
+	color: pink;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+h4{
+	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+dt{
+	font-weight: bold;
+	font-style: italic;
+	color: red;
+	font-family: sans-serif;
+	font-size: 1.8em;
+}
+dd{
+	font-weight: bold;
+	font-style:bold;
+	color: green;
+	font-family: courier;
+	font-size: 1.2em;
+}
+table,th,td{
+	border: 1px solid black;
+	padding: 5px;
+	
+}
+table{	
+	border-collapse: collapse;
+}
+#imgsmall{
+	margin-left:0.5em;
+	margin-right:0.5em;
+	border-radius: 8px;
+	height:42px;
+	width: 42px;
+}
+#imgbig{
+	margin-left:0.5em;
+	margin-right:0.5em;
+	border-radius: 10px;	
+	height:600px;
+	width: 800px;
+}
+ul.a {
+    list-style-type: disc;
+}

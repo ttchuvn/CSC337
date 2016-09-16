@@ -1,0 +1,157 @@
+body{
+	background: url("images/moviebg.png") repeat 0 0 ;
+}
+h3{
+	color:blue;
+	background-color: yellow;
+	font-weight: bold;
+	font-family: cursive;
+}
+dt{
+	font-weight: bold;
+	
+	color: red;
+	font-family: sans-serif;
+	font-size: 1.8em;
+}
+dd{
+	font-weight: bold;
+	color: green;
+	font-family: courier;
+	font-size: 1.2em;
+}
+
+#banner{		
+		background: url("images/rancidbannerbg.png") repeat 0 0 ;	
+		display: block;
+  	 	margin: auto auto;		
+	}
+
+h1{
+	color:black;
+	font-size:24pt;
+	text-align: center;
+	text-shadow: 2px 2px dimgray;
+	font-weight: bold;
+	font-family: serif;
+	}
+#container{
+	margin:0 auto;
+	padding:0;
+	box-shadow: 10px 10px 10px #888888 ;
+	border-radius: 25px;
+	border: 0.5px solid gray;
+	background-color: darkseagreen;
+	width: 800px;
+	height: 925px;
+}
+img.floatLeft{
+	float: left;
+	margin: 0px;
+	padding-right: 1px;
+  	padding-top: 0px;
+  	padding-bottom: 1px;
+    padding-left: 1px;
+}
+img.floatLeft33{
+	float: left;
+	margin: 0px;
+	padding-right: 30px;  
+}
+#rottenlarge{
+	border-radius: 25px 0px 0px 0px;
+	background: url("images/rottenlargebg.png") repeat 0 0;
+	width: 550px;
+	height: 83px;
+
+}
+span.text33{
+	font-weight: bold;
+	color: red;
+	font-family: Arial;
+	font-size: 48pt;
+}
+#imgRottenlarge{
+	border-radius: 25px 0px 0px 0px;
+	width: 98px;
+	height: 83px;	
+
+}
+#imgOverview{
+	border-radius: 0px 25px 0px 0px;	
+	display: block;	
+  	float:right;
+}
+#textOverview{
+	float: left;
+	display: block;	
+	width: 220px;
+	height: 480px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 12px;
+}
+dt{
+	font-weight: bold;
+	margin-top: 5px;
+
+	font-size: 8pt;
+
+	font-variant:normal;
+	font-family:Arial;
+	color: black;
+}
+dl,dd{
+	margin-top: 5px;
+
+	font-size: 7pt;
+
+	font-weight:normal;
+
+	font-variant:normal;
+	font-family:Arial;
+	color: black;
+}
+li{
+	list-style: none;
+}
+#review{
+	float: left;
+	display: block;	
+	width: 550px;
+	height: 810px;
+	
+	
+	padding-top: 10px;
+	
+	background-color: lightgray;
+}
+div.reviewBox{
+	background-color: white;
+	border-radius: 20px 20px 20px 20px;
+	border: 2px solid darkgray;
+	width: 250px;	
+    padding-right: 5px;  
+    padding-left: 5px;
+}
+p{
+	font-family: "Times New Roman";
+	font-size: 9.5pt;
+}
+#p1{
+	text-align: center;
+	display: block;
+	position: relative;
+	left: -15%;
+}
+#firstColumn{
+	width: 270px;
+	display: block;
+	float: left;
+	padding-left: 5px;
+}
+#secondColumn{
+	display: block;
+	width: 270px;	
+	float: right;
+}
